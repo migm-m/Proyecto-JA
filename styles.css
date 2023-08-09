@@ -1,0 +1,218 @@
+/* Types*/
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  overflow-x: hidden; 
+}
+
+.font-serif {
+  font-family: Volkhov, "Times New Roman", sans-serif;
+  font-style: italic;
+}
+
+.font-alt {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+/* Cuerpo */
+
+header.transparent-header {
+  background-color: transparent;
+  color: #fff;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 24px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.titan-title-size-4 {
+  letter-spacing: 24px;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 1rem;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sección Hero*/
+
+
+.hero {
+  background-image: linear-gradient(rgba(14, 104, 131, 0.5), rgba(139, 201, 24, 0.5)), url("fondo.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.main-button {
+  font-size: 18px;
+  padding: 12px 40px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.main-button:hover {
+  background-color: #fff;
+  color: #111;
+  transition: 0.3s;
+}
+
+/* Sección about us */
+
+.about-us {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.about-us p {
+  margin: 0;
+}
+
+
+/* Sección de servicios */
+
+.features-title,
+.alt-features-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #111;
+  margin: 16px 0 15px;
+}
+
+.services {
+  background-color: #f7f7f7;
+  padding: 4rem 0;
+}
+
+.services .row {
+  margin-top: 2rem;
+}
+
+.service {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.module-title {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  color: #111;
+  margin: 0 0 70px;
+}
+
+
+.service img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+
+/* Sección de carrusel */
+
+.carousel-inner img {
+  max-height: 300px; /* Adjust the value as per your desired maximum height */
+  width: auto;
+  margin: auto;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto; 
+}
+
+/* Contacto */
+
+.contact {
+  background-color: #f2f2f2;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto; 
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #123eb8; 
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; 
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
