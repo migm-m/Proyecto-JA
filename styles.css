@@ -19,7 +19,7 @@ body {
 }
 
 
-/* Cuerpo */
+/* Header */
 
 header.transparent-header {
   background-color: transparent;
@@ -58,8 +58,8 @@ a {
   text-decoration: none;
 }
 
-/* Sección Hero*/
 
+/* Sección Hero*/
 
 .hero {
   background-image: linear-gradient(rgba(14, 104, 131, 0.5), rgba(139, 201, 24, 0.5)), url("fondo.jpg");
@@ -212,3 +212,4 @@ footer {
   background-color: #333;
   color: #fff;
 }
+
