@@ -38,11 +38,6 @@ header h1 {
   margin-right: 1rem;
 }
 
-.titan-title-size-4 {
-  letter-spacing: 24px;
-  font-weight: 400;
-  font-size: 48px;
-}
 
 nav ul {
   list-style: none;
@@ -97,7 +92,7 @@ a {
   text-decoration: none;
 }
 .main-button:hover {
-  background-color: #fff;
+  background-color: #b5d0ed;
   color: #111;
   transition: 0.3s;
 }
@@ -167,9 +162,10 @@ a {
 /* Sección de carrusel */
 
 .carousel-inner img {
-  max-height: 300px; /* Adjust the value as per your desired maximum height */
+  max-height: 200px; 
   width: auto;
   margin: auto;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0 auto; 
